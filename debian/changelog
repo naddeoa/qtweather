@@ -1,0 +1,93 @@
+qtweather (0.7.11) unstable; urgency=high
+
+   * NOTE!: changed the url of the xml feed. In one week older versions of this application will stop working
+  * Fixed rain graphs not always showing when they should
+  * Application now adapts to added graphs in the xml file. More flexible on the developer side
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Thu, 30 Jun 2011 23:57:48 -0500
+
+qtweather (0.7.10) unstable; urgency=low
+
+  * Fixed bug with the dialog showing on screens that don't belong to QtWeather
+  * Efficiency tweaks
+  * Corrected weather service title: from NAOO to NOAA
+  * Changed the download location of the XML file to my own server. 
+    This allowed me to create a much more logical and organized layout 
+    to parse, with less code in the application
+  * Eliminated the temporary file
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Mon, 7 Mar 2011 15:57:48 -0500
+
+qtweather (0.7.9) unstable; urgency=low
+
+  * Changed the location of the conf file to /home/user/.config/qtweather/qtweather.conf
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Mon, 7 Mar 2011 15:57:48 -0500
+
+qtweather (0.7.8) unstable; urgency=low
+
+  * Fixed issue with the weather graphs not scrolling all the way in the "details" view
+  * Added a "Other Home" menu item that switches to your other home, assuming you have one
+  * Added bug tracker
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Mon, 7 Mar 2011 13:57:48 -0500
+
+qtweather (0.7.7) unstable; urgency=low
+
+  * Another attempt at fixing the maemo display name in the package manager...
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Sun, 6 Mar 2011 13:57:48 -0500
+
+qtweather (0.7.6) unstable; urgency=low
+
+  * Fixed problem with the zip dialog acceping more than 5 digits
+  * Added en_US section for the display name in the debian/control
+  * Graphs for snow and rain accumultation now appear in the "details" view when applicable
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Sun, 6 Mar 2011 12:57:48 -0500
+
+qtweather (0.7.5) unstable; urgency=low
+
+  * Fixes the .desktop file not properly installing
+  * Fixed display name in package manager
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Tue, 1 Mar 2011 12:56:48 -0500
+
+qtweather (0.7.4) unstable; urgency=low
+
+  * Gave the labels gradient background
+  * Added lines inbetween items in the "Settings" menu
+  * Reduced the size of the right pane in landscape mode
+  * Fixed problem with the settings pane's layout in portrait mode
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Tue, 1 Mar 2011 12:54:48 -0500
+
+qtweather (0.7.3) unstable; urgency=low
+
+  * Made the left pane scrollable to fit the graph
+  * Added a "home" feature which let's users set a zipcode to load automatically on startup
+  * Made text fields only accept numbers, since they are for zipcodes
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Mon, 28 Feb 2011 12:54:48 -0500
+
+qtweather (0.7.2) unstable; urgency=low
+
+  * learned to use the changelog!
+  * 0.7.2 has no updates, just testing changelog
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Thu, 24 Feb 2011 12:54:48 -0500
+
+qtweather (0.7.1) unstable; urgency=low
+
+  * Removed 12 instances of the QNetworkAcessManager that were redundant
+  * Added scrollable graph to the left pane
+  * Added more weather data to the left pane
+  * Changed icon from a cloud to the National Weather Service icon
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Wed, 23 Feb 2011 12:54:48 -0500
+
+qtweather (0.5.1) unstable; urgency=low
+
+  * Initial release
+
+ -- Anthony Naddeo <anthony.naddeo@gmail.com>  Tue, 22 Feb 2011 12:54:48 -0500

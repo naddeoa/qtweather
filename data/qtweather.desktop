@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.7.11
+Type=Application
+Categories=Application;Utilities;
+Name=QtWeather
+Exec=/opt/qtweather/bin/qtweather
+Icon=qtweather
+X-Window-Icon=qtweather
+Terminal=false
+X-Osso-Type=application/x-executable
+X-HildonDesktop-ShowInToolbar=true
